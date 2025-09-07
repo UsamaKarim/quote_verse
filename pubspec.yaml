@@ -8,12 +8,15 @@ environment:
 
 dependencies:
   bloc: ^9.0.0
+  equatable: ^2.0.5
   flutter:
     sdk: flutter
   flutter_bloc: ^9.1.1
   flutter_localizations:
     sdk: flutter
+  google_fonts: ^6.2.1
   intl: ^0.20.2
+  toastification: ^3.0.3
 
 dev_dependencies:
   bloc_test: ^10.0.0
@@ -25,3 +28,5 @@ dev_dependencies:
 flutter:
   generate: true
   uses-material-design: true
+  assets:
+    - assets/
